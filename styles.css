@@ -8,20 +8,20 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 
 .main-content {
     background-color: #ffffff;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 50px 50px;
 }
 
 /* about styles  */
 
 .about {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .about-position {
@@ -37,7 +37,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
-    line-height: 55px;
+    line-height: 15px;
     color: #000000;
     margin-bottom: 25px;
 }
@@ -186,10 +186,26 @@ body {
     text-decoration: none;
     transition: 0.7s;
     color: #4dbf9b;
+    text-shadow: 5px 5px 20px #4dbf9b;
 }
 
 .company-link-verallia:hover {
-    transform: scaleY(1.2);
+    transform: scaleY(1.6);
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+.company-link-dimol{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.7s;
+    color: #cf6c2a;
+    text-shadow: 5px 5px 20px #cf6c2a;
+}
+
+.company-link-dimol:hover {
+    transform: scaleY(1.6);
     transition: 0.7s;
     text-decoration: underline;
 }
@@ -198,12 +214,13 @@ body {
     display: inline-block;
     font-weight: bold;
     text-decoration: none;
-    color: #10124d;
     transition: 0.7s;
+    color: #313488;
+    text-shadow: 5px 5px 20px #313488;
 }
 
 .company-link-renome:hover {
-    transform: scaleY(1.2);
+    transform: scaleY(1.6);
     transition: 0.7s;
     text-decoration: underline;
 }
@@ -213,13 +230,45 @@ body {
     font-weight: bold;
     text-decoration: none;
     transition: 0.7s;
-    color: #bd3232;
+    color: #751818;
+    text-shadow: 5px 5px 20px #751818;
 }
 
 .company-link-modern:hover {
-    transform: scaleY(1.2);
+    transform: scaleY(1.6);
     transition: 0.7s;
     text-decoration: underline;
+}
+
+.company-link-RZVA {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.7s;
+    color: #5b75e9;
+    text-shadow: 5px 5px 20px #5b75e9;
+}
+
+.company-link-RZVA:hover {
+    transform: scaleY(1.6);
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+.company-link-technoprivod {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.7s;
+    color: #1e8a47;
+    text-shadow: 5px 5px 20px #1c4634;
+}
+
+.company-link-technoprivod:hover {
+    transform: scaleY(1.6);
+    transition: 0.7s;
+    text-decoration: underline;
+    
 }
 
 .company-bracket {
@@ -417,4 +466,3 @@ font-size: 16px;
 color: #0e76a8;
 font-weight: bold;
 }
-
